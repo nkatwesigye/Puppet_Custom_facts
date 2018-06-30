@@ -19,22 +19,15 @@ rescue Timeout::Error => e
 setcode do
 
      dns_state
-
-        end
+end
 
 else
-
-    dns_state='dns_passed'
-
-      end
-
-    setcode do
-
-        dns_state
-
+ dns_state='dns_passed'
+end
+ setcode do
+     dns_state
           end
-
-             end
+    end
 end
 
 
